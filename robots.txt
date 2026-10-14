@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://advisorcommissions.dokuwell.com/sitemap.xml
