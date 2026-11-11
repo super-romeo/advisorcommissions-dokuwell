@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For independent travel advisors: record the expected commission of every booking, match supplier payments, and chase commissions that are late or missing.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Commission Tracker</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Commission Tracker</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Every booking's commission tracked — know what is late, what is short and what to chase</h1>
-    <p class="sub">For independent travel advisors, whether with a host agency or your own IATA: record each booking with its expected commission, mark what suppliers paid, and get a list of commissions that are late or short, with ready-to-send follow-ups.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For independent travel advisors</p>
+      <h1 class="rise" style="--i:1" data-len="long">Every booking's commission tracked&nbsp;<span class="soft">— know what is late, what is short and what to chase</span></h1>
+      <p class="rise" style="--i:2">For independent travel advisors, whether with a host agency or your own IATA: record each booking with its expected commission, mark what suppliers paid, and get a list of commissions that are late or short, with ready-to-send follow-ups.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">Bookings</text><line x1="120" y1="220" x2="1080" y2="220" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="270" width="44" height="44" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><text x="200" y="302" font-size="32" fill="#566174">commission</text><rect x="130" y="360" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="370" width="240" height="22" rx="8" fill="#b9c3d2" /><rect x="130" y="450" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="460" width="360" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="540" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="550" width="200" height="22" rx="8" fill="#dfe8f7" /><rect x="700" y="270" width="370" height="390" rx="20" fill="#dfe8f7" /><text x="730" y="340" font-size="34" font-weight="600" fill="#0a1524">suppliers</text><rect x="740" y="500" width="46" height="120" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /><rect x="820" y="400" width="46" height="220" rx="8" fill="#12397a" stroke="#b9c3d2" stroke-width="3" /><rect x="900" y="460" width="46" height="160" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /><rect x="980" y="530" width="46" height="90" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Independent travel advisors</dd></div>
+      <div><dt>Tracks</dt><dd>Commission tracked</dd></div>
+      <div><dt>Mark</dt><dd>Mark what suppliers paid</dd></div>
+      <div><dt>Yet</dt><dd>The service is in preparation</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Bookings and expected commission</b><span>Supplier, confirmation number, travel dates and expected commission for each booking.</span><br><a class="btn" href="price.html" data-ev="feature_bookings">I need this</a></div>
-      <div class="card"><b>Payments matched</b><span>Supplier payments and host statements matched to bookings: paid, short or missing.</span><br><a class="btn" href="price.html" data-ev="feature_payments">I need this</a></div>
-      <div class="card"><b>Follow-ups</b><span>Late commissions listed by supplier with a ready-to-send follow-up message.</span><br><a class="btn" href="price.html" data-ev="feature_followup">I need this</a></div>
-      <div class="card"><b>Year at a glance</b><span>Commission earned, received and outstanding by month and by supplier.</span><br><a class="btn" href="price.html" data-ev="feature_year">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">expected commission</text><rect x="130" y="230" width="48" height="48" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><polyline points="140,256 150,266 168,244" fill="none" stroke="#ffffff" stroke-width="6" /><rect x="210" y="242" width="340" height="24" rx="8" fill="#dde2ea" /><rect x="130" y="330" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="342" width="290" height="24" rx="8" fill="#dde2ea" /><rect x="130" y="430" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="442" width="240" height="24" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Bookings and expected commission</h3><p>Supplier, confirmation number, travel dates and expected commission for each booking.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_bookings">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="70" y="100" font-size="32" font-weight="600" fill="#0a1524">Payments matched</text><rect x="60" y="150" width="250" height="390" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="490" y="150" width="250" height="390" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="90" y="210" width="180" height="18" rx="6" fill="#dde2ea" /><rect x="90" y="270" width="140" height="18" rx="6" fill="#b9c3d2" /><rect x="90" y="330" width="160" height="18" rx="6" fill="#dde2ea" /><rect x="520" y="210" width="180" height="18" rx="6" fill="#dfe8f7" /><rect x="520" y="270" width="120" height="18" rx="6" fill="#dde2ea" /><rect x="520" y="330" width="170" height="18" rx="6" fill="#12397a" /><line x1="310" y1="220" x2="490" y2="220" fill="none" stroke="#12397a" stroke-width="4" /><line x1="310" y1="280" x2="490" y2="340" fill="none" stroke="#b9c3d2" stroke-width="4" /><line x1="310" y1="340" x2="490" y2="280" fill="none" stroke="#dde2ea" stroke-width="4" /></svg></div>
+        <h3>Payments matched</h3><p>Supplier payments and host statements matched to bookings: paid, short or missing.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_payments">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="110" font-size="32" font-weight="600" fill="#0a1524">Follow-ups</text><rect x="250" y="160" width="300" height="380" rx="36" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="330" y="184" width="140" height="16" rx="8" fill="#dde2ea" /><rect x="280" y="230" width="240" height="70" rx="16" fill="#dfe8f7" /><rect x="280" y="320" width="200" height="20" rx="8" fill="#dde2ea" /><rect x="280" y="356" width="150" height="20" rx="8" fill="#b9c3d2" /><rect x="280" y="430" width="240" height="52" rx="16" fill="#12397a" /></svg></div>
+        <h3>Follow-ups</h3><p>Late commissions listed by supplier with a ready-to-send follow-up message.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_followup">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Year at a glance</text><line x1="140" y1="470" x2="660" y2="470" fill="none" stroke="#b9c3d2" stroke-width="4" /><rect x="170" y="380" width="70" height="90" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="290" y="290" width="70" height="180" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="410" y="340" width="70" height="130" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="530" y="230" width="70" height="240" rx="8" fill="#12397a" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Year at a glance</h3><p>Commission earned, received and outstanding by month and by supplier.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_year">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">Advisor with 64 bookings this year. October: 11 trips completed in September, 8 commissions received, 1 short by the amount of a cancelled excursion, 2 missing. Follow-ups prepared with confirmation numbers for both suppliers.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>Advisor with 64 bookings this year. October: 11 trips completed in September, 8 commissions received, 1 short by the amount of a cancelled excursion, 2 missing. Follow-ups prepared with confirmation numbers for both suppliers.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">October</text><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">bookings</text><circle cx="960" cy="160" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">Follow-ups</text><rect x="120" y="320" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" font-weight="600" fill="#0a1524">commissions</text><rect x="170" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="460" width="64" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="350" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="440" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="530" y="460" width="64" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="620" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="710" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="580" width="520" height="24" rx="8" fill="#dde2ea" /><rect x="170" y="630" width="340" height="24" rx="8" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>An independent travel advisor earns commission on every booking, but the money arrives weeks or months later, often after travel, through a host agency statement or directly from the supplier. Some commissions arrive short, some arrive late, and some never arrive. One commission tracking provider says over 40% of commissions contain discrepancies or do not get paid. Without a list, an advisor only notices when the month feels lighter than expected.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>An independent travel advisor earns commission on every booking, but the money arrives weeks or months later, often after travel, through a host agency statement or directly from the supplier. Some commissions arrive short, some arrive late, and some never arrive. One commission tracking provider says over 40% of commissions contain discrepancies or do not get paid. Without a list, an advisor only notices when the month feels lighter than expected.</p>
     <p>Commission Tracker does one thing: it keeps the expected commission of every booking next to what was actually paid. It is built for advisors working alone or with a host agency, who do not need a full agency system.</p>
     <p>When you book, you add the booking in a short form: supplier, confirmation number, client, travel dates and the expected commission — as an amount or a percentage of the fare. Bookings can also be imported from a spreadsheet or forwarded from confirmation emails.</p>
     <p>When money arrives — a supplier payment or your host's monthly statement — you mark it against the booking, or import the statement and let the service match the lines. Each booking then shows one of three states: paid, short or missing. Short and missing commissions after the expected date go to the follow-up list.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>A typical month takes a few minutes. You add new bookings as you make them, and when the host statement arrives you import it. The service shows which bookings were paid and which were not. Anything overdue appears in the follow-up list with the message already written, so the only work left is to press send.</p>
     <p>Over time the list of unpaid commissions becomes short, because nothing is forgotten. Advisors who start tracking often find money from bookings made months ago that nobody followed up. The service also helps at tax time: the year view gives the total commission received, by month, with the bookings behind each amount.</p>
     <p>The service tracks commissions from the bookings and payments you record. Your host agreement and supplier terms define what is owed. We are not a host agency and do not collect commissions for you.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Is this for independent advisors?</h3>
-    <p>Yes, for advisors working alone or with a host agency who want to track their own commissions.</p>
-    <h3>Can I import host statements?</h3>
-    <p>Yes. Statement lines are matched to your bookings.</p>
-    <h3>Do you collect commissions for me?</h3>
-    <p>No. We prepare follow-ups; you send them, and payments go to you or your host as before.</p>
-    <h3>Can I add old bookings?</h3>
-    <p>Yes, from a spreadsheet, to look for commissions that were never paid.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether advisors need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Is this for independent advisors?</h3><p>Yes, for advisors working alone or with a host agency who want to track their own commissions.</p></div>
+      <div class="split flip"><h3>Can I import host statements?</h3><p>Yes. Statement lines are matched to your bookings.</p></div>
+      <div class="split flip"><h3>Do you collect commissions for me?</h3><p>No. We prepare follow-ups; you send them, and payments go to you or your host as before.</p></div>
+      <div class="split flip"><h3>Can I add old bookings?</h3><p>Yes, from a spreadsheet, to look for commissions that were never paid.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether advisors need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Add your first booking</h2>
-    <p><label>Bookings per year<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 50</option><option>51–150</option><option>151–400</option><option>More than 400</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Add a booking</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Add your first booking</h2>
+    </div>
+    <div class="tile stack">
+      <label>Bookings per year<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 50</option><option>51–150</option><option>151–400</option><option>More than 400</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Add a booking</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Commission Tracker</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Commission tracking only. Not a host agency; we do not collect or hold commissions. What is owed follows your host and supplier agreements.</p>
+  <p>Commission tracking only. Not a host agency; we do not collect or hold commissions. What is owed follows your host and supplier agreements.</p>
 </div></footer>
 
 </body>
